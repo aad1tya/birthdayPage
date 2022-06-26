@@ -1,0 +1,77 @@
+/*
+Challenge:
+Style the app according to the provided design.
+The font is called "Happy Monkey" and can be
+embedded via Google Fonts.
+
+Don't know how to make an image round? Google it!
+Also, consider how you should select the image 
+(class vs id vs element selector).
+*/
+
+body {
+    background: linear-gradient(#efb0c9, skyblue);
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Happy Moneky', cursive;
+    text-shadow: 0px 0px 1 px black;
+}
+
+#humanSubject{
+    width: 300px;
+    height: 300px;
+
+    border-radius: 50%;
+    border: 8px solid #efb0c9;
+}
+
+#bday-age {
+    font-size: 30px;
+    background-color: #efb0c9;
+    border: 0px solid #efb0c9;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+
+#bday-date {
+    font-size: 20px;
+    background-color: #efb0c9;
+    border: 0px solid #efb0c9;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+.wishText{
+    text-shadow: 0px 0px 1px black;
+}
+
+.giftCover{
+    background-image: url("images/gift-cover.png");
+    height: 346px;
+    width: 346px;
+    border: 10px solid white;
+    border-radius: 10px;
+}
+
+.giftCover:hover{
+    background-image: url("images/happy.gif");
+}
+
+.secondText{
+    text-shadow: 0px 0px 1px black;
+}
+
+#hotImg:hover{
+    background-image: url("images/hot.gif");
+}
